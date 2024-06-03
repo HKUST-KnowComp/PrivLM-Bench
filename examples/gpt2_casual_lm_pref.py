@@ -2,11 +2,6 @@
 This file is for GPT-2 casual LM prefix tuning
 '''
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-os.environ['HF_HOME'] = './hf_models/cache'
-os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
-access_token = "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"
-os.environ['HF_TOKEN'] =access_token
 import sys
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  
