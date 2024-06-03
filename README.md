@@ -48,7 +48,7 @@ For MIAs, we implement the Likelihood Ratio Attack (LiRA) by training multiple (
 For evaluations on MIAs, you may use scripts under ```eval/MIA/``` to calculate AUC scores as well as likelihood.
 
 ### Training Data Extraction Attacks (DEAs)
-
+To run DEAs， the first thing to do is to modify the canary_type_list, insert_proportion_list, and insert_time_base_list in the ```config.py``` file to control the type, proportion, and frequency of canary insertions. Then you can run ```eval/DEA/canary_experiments.py``` or run the examples under ```examples/``` for GPT or T5 training. Then run the canary_evaluate function provided by the trainer class to calculate exposures. We also provide some plotting functions for comparing different models in ```eval/DEA/canary_experiments.py```.
 
 ### Embedding Inversion Attacks (EIAs)
 To run EIAs, you may first fine-tune LMs with/without DP under ```examples/```. Then you can use attacker code inside ```eval/EIA/``` to train the attacker and perform evaluation.
