@@ -1,13 +1,7 @@
-## P-Bench
+## PrivLM-Bench
 
-Code for ACL 2024 paper: P-Bench: A Multi-level Privacy Evaluation Benchmark for Language Models
+Code for ACL 2024 paper: PrivLM-Bench: A Multi-level Privacy Evaluation Benchmark for Language Models
 
-**TODO**
-
-We are working on code cleaning and our code for membership inference attacks, data extraction attacks and embedding inversion attacks has been uploaded.
-
-1. Improve code readability (In Progress)
-2. Add backdoor attacks on generative LLMs ❌
 
 
 
